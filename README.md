@@ -12,7 +12,7 @@ The project consists of the following files:
 - **client.h**: Contains structures for the client and topics.
 - **pcom_hw2_udp_client**: Implementation of the UDP client (This folder was not implemented by me but received along with the assignment)
 
-# The implementation
+## The implementation
 ### lib.h
 The protocol is implemented using the udp_packet and tcp_packet structures.
 The tcp_packet structure includes the following fields:
