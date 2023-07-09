@@ -12,6 +12,20 @@ The project consists of the following files:
 - **client.h**: Contains structures for the client and topics.
 - **pcom_hw2_udp_client**: Implementation of the UDP client (This folder was not implemented by me but received along with the assignment)
 
+## How to Run
+### Run the Server
+
+```bash
+./server <PORT>
+```
+Make sure to specify the port number on which you want to run the server.
+
+### Run a TCP Subscriber
+```bash
+./subscriber <ID_CLIENT> <IP_SERVER> <PORT_SERVER>
+```
+Make sure to specify the client ID, server IP address, and server port number.
+
 ## The implementation
 ### lib.h
 The protocol is implemented using the udp_packet and tcp_packet structures.
