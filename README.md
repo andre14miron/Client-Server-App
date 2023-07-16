@@ -1,9 +1,9 @@
 # TCP and UDP client-server application for message management
 
-## The description
+## Description
 This project involves implementing a platform with three components: a server, TCP clients, and UDP clients, for message management. The server facilitates communication between clients, allowing message publication and subscription. TCP clients can subscribe, unsubscribe, and display received messages. UDP clients publish messages to the server using a predefined protocol. The application also includes a store-and-forward feature for TCP clients to receive messages when they are offline.
 
-## The structure
+## Structure
 The project consists of the following files:
 
 - **server.c**: Implementation of the server.
@@ -26,7 +26,7 @@ Make sure to specify the port number on which you want to run the server.
 ```
 Make sure to specify the client ID, server IP address, and server port number.
 
-## The implementation
+## Implementation
 ### lib.h
 The protocol is implemented using the udp_packet and tcp_packet structures.
 The tcp_packet structure includes the following fields:
